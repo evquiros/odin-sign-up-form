@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-Up Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="leaves">
+            <div class="odin">
+                <img src="imgs/odin-lined.png" alt="odin-lined-logo">
+                <p>Odin</p>
+            </div>
+            <p class="img-footer">Photo by <a href="">Halie West</a> on <a href="">Unsplash</a></p>
+        </div>
+        <div class="righ-side">
+            <div class="info">
+                <div class="text">
+                    <p>This is not a real online service! You know you need something like this in yout life to help you realize your deepest dreams. Sign up <span class="italic">now</span> to get started.</p>
+                    <p>You <span class="italic">know</span> you want.</p>
+                </div>
+            </div>
+            <div class="white">
+                <form action="" id="signup-form">
+                    <h2>Let's do this!</h2>
+                    
+                    <div class="row">
+                        <div class="column">
+                            <p class="form-inputs">
+                                <label for="first-name">FIRST NAME</label>
+                                <input type="text" name="first-name" id="first-name" required>
+                            </p>
+                            <p class="form-inputs">
+                                <label for="email">EMAIL</label>
+                                <input type="email" name="email" id="email" required>
+                            </p>
+                            <p class="form-inputs">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" name="password" id="password" required>
+                                <p class="error"></p>
+                            </p>
+                        </div>
+                        <div class="column">
+                            <p class="form-inputs">
+                                <label for="last-name">LAST NAME</label>
+                                <input type="text" name="last-name" id="last-name" required>
+                            </p>
+                            <p class="form-inputs">
+                                <label for="phone-number">PHONE NUMBER</label>
+                                <input type="tel" name="phone-number" id="phone-number" required>
+                            </p> 
+                            <p class="form-inputs">
+                                <label for="conf-password">CONFIRM PASSWORD</label>
+                                <input type="password" name="conf-password" id="conf-password" required>
+                            </p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="bottom">
+                <button type="submit" class="create">Create Account</button>
+                <p>Already have an account? <span class="login"><a href="" class="login">Log In</a></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

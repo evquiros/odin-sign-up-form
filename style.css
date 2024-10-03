@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f9fafb;
+}
+
+@font-face {
+    font-family: 'Nordic';
+    src: url(fonts/Norse-Bold.otf);
+}
+
+.container {
+    display: flex;
+}
+
+.leaves {
+    width: 40%;
+    background-image: url(imgs/leaves.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.odin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    height: 9rem;
+    position: absolute;
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.odin img {
+    height: 7rem;
+}
+
+.odin p {
+    font-family: 'Nordic';
+}
+
+.img-footer {
+    position: absolute;
+    width: 100%;
+    color: white;
+    text-align: center;
+    bottom: 0px;
+    margin-bottom: .5rem;
+}
+
+.img-footer a{
+    color: white;
+}
+
+.info {
+    width: 100%;
+    padding: 3rem;
+}
+
+.text {
+    margin-top: 10rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    width: 80%;
+}
+
+.text p:first-child {
+    margin-bottom: 1rem;
+}
+
+.italic {
+    font-style: italic;
+}
+
+form {
+    background-color: white;
+    padding: 2rem 4rem;
+    box-shadow: 1px 6px 6px lightgrey;
+}
+
+.form-inputs label{
+    display: block;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.form-inputs input {
+    width: 20rem;
+    background-color: #fffefe;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.form-inputs input:focus {
+    box-shadow: 2px 2px 6px grey;
+    border: 1px solid blue;
+    outline: none;
+}
+
+form h2 {
+    margin-bottom: 1rem;
+}
+
+.row {
+    display: flex;
+    gap: 5rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.login {
+    color: #596D48;
+}
+
+.bottom p {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.bottom {
+    padding: 3rem;
+}
+
+.create {
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: #596D48;
+    padding: 1rem 3.5rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.error {
+    font-size: .8rem;
+}
